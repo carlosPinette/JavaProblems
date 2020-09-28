@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Main{
+class GenerateParentheses{
     public static void main(String[] args){
         int n = 3;
         System.out.println(generateParentheses(n));
