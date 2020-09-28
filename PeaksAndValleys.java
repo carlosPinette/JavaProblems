@@ -10,7 +10,7 @@ public class PeaksAndValleys {
     }
 
     public static void sortPeakValley(int[] array){
-        for(int i = 1; i < array.length; i++){
+        for(int i = 1; i < array.length; i+=2){
             int bigIndex = bigger(array, i - 1, i, i + 1);
             if(bigIndex != i)
                 swap(array, i, bigIndex);
